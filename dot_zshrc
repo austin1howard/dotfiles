@@ -13,7 +13,7 @@ if [[ -f ~/.zshrc.local ]]; then
     source ~/.zshrc.local
 fi
 
-export VISUAL=subl
+export VISUAL=vim
 
 # Load zsh plugins
 source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
