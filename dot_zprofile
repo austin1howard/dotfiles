@@ -1,0 +1,15 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Created by `pipx` on 2025-12-16 22:34:27
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/bin"
+
+# Manually added
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+# Any local aliases or other temp tweaks
+if [[ -f ~/.zprofile.local ]]; then
+    source ~/.zprofile.local
+fi
+
+export GOPATH=$HOME/go

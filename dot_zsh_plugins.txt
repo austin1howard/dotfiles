@@ -1,0 +1,21 @@
+# nvm setup (potential pre-req below)
+lukechilds/zsh-nvm
+
+# Completions
+mattmc3/ez-compinit
+zsh-users/zsh-completions
+danydodson/zsh-completions
+zshzoo/macos
+
+# QoL
+zsh-users/zsh-autosuggestions
+hyperupcall/autoenv
+
+# helpful "commands"
+voronkovich/gitignore.plugin.zsh
+
+# Theme
+romkatv/powerlevel10k
+
+# must be last!
+zsh-users/zsh-syntax-highlighting
